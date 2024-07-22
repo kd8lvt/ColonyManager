@@ -62,3 +62,6 @@ Source/BetterAnimalsTab/obj/Debug/BetterAnimalsTab.pdb
 *.cache
 *.pxd
 *.pdb
+
+# Rimworld Specific
+*.dds

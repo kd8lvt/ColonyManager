@@ -352,7 +352,7 @@ namespace FluffyManager
 
             // do the button
             if ( Event.current.control && Widgets.ButtonInvisible( buttonRect ) )
-                Find.WindowStack.Add( new Dialog_MiningDebugOptions( _selected ) );
+                //Find.WindowStack.Add( new Dialog_MiningDebugOptions( _selected ) );
             if ( !_selected.Managed )
             {
                 if ( Widgets.ButtonText( buttonRect, "FM.Manage".Translate() ) )
